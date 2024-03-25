@@ -1,111 +1,182 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 
-.container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 0 20px;
+.principal {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
 }
 
-header {
-    background-color: #4270ec;
-    color: #fff;
-    padding: 20px 0;
+.izqp {
+    background-color: #EAE7F3;
+    position: relative;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
 }
 
-header nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.infiz {
+    height: 680px;
+    padding: 50px;
+    margin-top: 160px;
+    box-shadow: 0px 0px 0px 5px white;
+    border-radius: 25px;
+    margin-left: 70px;
+    background-color: #F4F2F9;
+    margin-bottom: 40px;
+    position: relative;
+    overflow: hidden;
 }
 
-header nav ul li {
+.logo {
+    padding-left: 25px;
+}
+
+.texto {
+    padding-left: 50px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.letjami {
+    color: #6435B5;
     display: inline;
 }
 
-header nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 18px;
+.imagen {
+    padding-top: 50px;
+    padding-left: 50px;
 }
 
-#banner {
-    background-image: url('visa-banner.jpg');
-    background-size: cover;
-    color: #0f0f0f;
-    text-align: center;
-    padding: 100px 0;
+
+.derp {
+    background-color: #F4F2F9;
+    position: relative;
+    height: 100%;
+    width: 60%;
+    display: flex;
+    overflow: hidden;
 }
 
-#servicios {
-    background-color: #f9f9f9;
-    padding: 50px 0;
-    text-align: center;
+.infp{
+    margin-top: 160PX;
+    background-color: #FFFFFF;
+    height: 545px;
+    margin-left: -5px;
+    width: 800px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 0px 5px white;
+    overflow: hidden;
 }
-
-.servicio {
-    margin-bottom: 30px;
+.arri{
+    position: absolute;
+    display: inline-block; 
+    margin-left: 540px;
+    margin-top: -480px;
 }
-
-.servicio img {
-    max-width: 100%;
+.arri2{
+    position: absolute;
+    display: inline-block; 
+    font-size: small;
+    padding: 10px;
+    margin-top: -480px;
+    margin-left: 670px; 
     border-radius: 5px;
+    height: 35px;
+    background-color: #683AB7;
+    color: white;
 }
 
-.contact-form {
-    max-width: 600px;
-    margin: auto;
+
+.formulario{
+    margin-left: 250px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2px;
 }
 
-.contact-form input,
-.contact-form textarea {
-    width: 100%;
+.log{
+    margin-top: 80px;
     margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #00043C;
 }
 
-.contact-form button {
-    width: 100%;
-    padding: 10px;
-    background-color: #008F39;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.entrada{
+    font-size: x-large;
+    height: 50px;
+    width: 390px;
+    background-color: #F4F2F9;
+    border-style: solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-width: 0px;
+    padding: 5px;
+}
+.correo{
+    font-size: smaller;
+    margin-bottom: 25px;
 }
 
-footer {
-    background-color: #0c34bb;
-    color: #fff;
-    padding: 30px 0;
-    text-align: center;
-  
+.contraseña{
+    font-size: smaller;
+    margin-bottom: 25px;
+
 }
 
-.redes-sociales ul {
-    list-style-type: none;
-    padding: 0;
+.boton-entrar{
+    font-size: larger;
+    font-size: medium;
+    color: white;
+    background-color: #2FBE6D;
+    width: auto;
+    height: 50px;
+    margin-top: 15px;
+    border-style: solid;
+}
+.olvido {
+    margin-top: 20px;
+    color: #000;
 }
 
-.redes-sociales ul li {
-    display: inline;
-    margin: 0 10px;
-    border-left: 3px solid rgb(255, 255, 255);
-    padding-left: 7px;
+.olvido .si {
+    color: #6435B5; 
+    opacity: 1; 
+}
+.logearse{
+    font-size: medium;
+    display:inline-block;
 }
 
-.redes-sociales ul li a {
-    color: #fff;
-    text-decoration: none;
+
+.circulo{
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    width: 300px;
+    height: 300px;
 }
 
-.info-contacto p {
-    margin: 5px 0;
+.a{
+    margin-top: 390px;
+    margin-left: -120px;
 }
 
+.b{
+    width: 300px;
+    height: 300px;
+    margin-left: 400px;
+    margin-top: 390px;
+}
